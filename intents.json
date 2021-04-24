@@ -1,0 +1,56 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hii", ".","hola"],
+         "responses": ["Hello!", "Hi there, how can I help?","yes, how can I help","Good to see you again!", "Welcome", "How can I help ", "yes i am heraring"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "ok thanks", "bye", "Bye Bye", "OK thanks","ok","bye","thanks","Thankyou"],
+         "responses": ["Sad to see you go 😒", "Talk to you later", "Goodbye!", "Catch you later","Take care 😊","Bye","See you later","See you again"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "Your name", "Who are you?","name","tell your name"],
+         "responses": ["You can call your personal assistant.", "I'm your asststant!" ,"I am a Bot"],
+         "context_set": ""
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand","Hmmm...i didn't understand","I cant understand sorry."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","guide me"],
+         "responses": ["I can guide you throughthe website", "Help you to guide through this website"],
+         "context": [""]
+        },
+        {"tag": "shop",
+         "patterns": ["I d like to buy something", "whats on the menu?", "what do you recommend?", "could i get something to eat?","whats on menu?","buy","items","items available"],
+         "responses": ["!", "you can find on category section.","please, go through category section of shop page"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["service available", "what are your hours", "hours of operation","available time","open time","available","time","open","service"],
+         "responses": ["We are open 24*7","all time for you","anytime we are available"],
+         "context_set": ""
+        },
+       
+        {"tag": "register",
+         "patterns": ["register", "How do i register?", "should i register","register options","reg","signup","should i register?","how d i login","login form"],
+         "responses": ["you need to register to buy the product.","you can find the register form on register page.","by register you can login ","please go to register page to register."],
+         "context_set": ""
+        },
+        {"tag": "login",
+         "patterns": ["login", "signin", "login option","should i login?","should i login to buy the product","what are login options?","login option","how do i login","log in"],
+         "responses": ["login through login page","please register first to login.","you should first register to login."],
+         "context_set": ""
+         },
+         {"tag": "how",
+         "patterns": ["How to use this website ?", " how to give test"],
+         "responses": ["register and login to give exam","relax and all the best","3 to 4 days of order"],
+         "context_set": ""
+        }
+   ]
+}
+
+
